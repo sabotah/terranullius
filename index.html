@@ -1,10 +1,38 @@
 <html>
 	<head>
-
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Terra Nullius</h1>
-		<p>test</p>
-		<img src="aus2.png">
+		<div class="container">
+			<div class="row">
+				<div class="col-3">
+				</div>
+				<div class="col-9">
+					<h1>Terra Nullius</h1>
+					<canvas id="canvas" width="990" height="600">
+					</canvas>
+
+
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jcanvas/21.0.1/min/jcanvas.min.js"></script>
+		<script>
+
+		$('canvas').drawImage({
+	  	source: 'aus2.png',
+	  	x: 300, y: 300, height: 554, width: 600
+		});
+
+		$('canvas').drawArc({
+		  fillStyle: 'darkred',
+		  x: 320, y: 80,
+		  radius: 10
+		});
+
+		</script>
 	</body>
 </html>
