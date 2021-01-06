@@ -6,15 +6,19 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="col-3">
+				<div class="col-3" id="timeline">
+					* BP = Before Present Day
 				</div>
 				<div class="col-9">
 					<h1>Terra Nullius</h1>
+					<h3 id="eventdescription"></h3>
+					<h3 id="pauseinfo">[ Paused, Click Resume to Continue ]</h3>
 					<canvas id="canvas" width="990" height="600">
 					</canvas>
-
+					<button class="btn btn-danger" id="start">Start</button>
 
 				</div>
+				<small>DISCLAIMER: Population points represent predicted population of each state BASED ONLY ON WHEN HUMANS ARRIVED! none of this is very accurate.</small>
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -22,15 +26,195 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jcanvas/21.0.1/min/jcanvas.min.js"></script>
 		<script>
 
+
+
+		// set timeout
+
+
+
+
+		var iterationcount = 0;
+		var timelabel = 60000;
+		var popgrowth = 2;
+		var start = false;
+		var timer = 1000;
+		var adtime = 0;
+		var tid;
+		$('#start').click(function(){
+
+			if(start == false) {
+				tid = setTimeout(mycode, timer);
+				$(this).html('Pause');
+				$('#pauseinfo').css('visibility', 'hidden');
+				start = true;
+			}
+			else {
+				abortTimer();
+			}
+		})
+
+		function mycode() {
+
+
+
+			$('#timeline').append('<br>'+timelabel+'BP');
+			if(adtime > 0) {
+				$('#timeline').append(' :: '+adtime+'AD');
+			}
+			$('canvas').setLayerGroup('states', {
+				radius: '+='+popgrowth,
+			})
+			.drawLayers();
+
+			if(timelabel == 60000) {
+
+				abortTimer();
+				$('#eventdescription').html('60000 BP :: First arrivals to Australia come via Land Bridge from Indonesia')
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'nt',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 320, y: 80,
+					radius: 5,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+			}
+
+			if(timelabel == 50000) {
+				$('#eventdescription').html('50000 BP :: Evidence of Humans in WA and QLD')
+				abortTimer();
+				// add WA, QLD
+				$('canvas').drawArc({
+					layer: true,
+					name: 'wa',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 60, y: 350,
+					radius: 5,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'qld',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 550, y: 250,
+					radius: 5,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+			}
+
+			if(timelabel == 40000) {
+				$('#eventdescription').html('40000 BP :: Evidence of Humans in NSW and TAS')
+				abortTimer();
+				// add NSW, TAS
+				$('canvas').drawArc({
+					layer: true,
+					name: 'nsw',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 550, y: 420,
+					radius: 5,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'tas',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 450, y: 550,
+					radius: 5,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+			}
+
+			if(timelabel == 30000) {
+				$('canvas').drawArc({
+					layer: true,
+					name: 'sa',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 320, y: 370,
+					radius: 5,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+			}
+
+			if(adtime == 1770) {
+				$('#eventdescription').html('1770 AD :: Captain Cook Arrives in Australia');
+				abortTimer();
+			}
+
+			iterationcount++;
+			if(timelabel > 10000) {
+				timer = 2000;
+					timelabel = timelabel - 10000;
+			}
+			else if(timelabel == 3000) {
+				adtime = 0;
+				timelabel = 2020;
+			}
+			else if(timelabel <= 2020 && adtime < 1700) {
+				timelabel = timelabel - 100;
+				adtime = adtime + 100;
+				popgrowth = 0.5;
+			}
+			else if(adtime >= 1700) {
+				timelabel = timelabel - 10;
+				adtime = adtime + 10;
+			  popgrowth = 0;
+			}
+			else if(adtime >= 1780) {
+				timelabel = timelabel - 1;
+				adtime = adtime + 1;
+			}
+			else {
+				timelabel = timelabel - 1000;
+				popgrowth = 1;
+			}
+
+
+			$("#timeline").scrollTop($("#timeline")[0].scrollHeight);
+
+		  // do some stuff...
+			if (start == true) {
+		  	tid = setTimeout(mycode, timer); // repeat myself
+			}
+
+		}
+		function abortTimer() { // to be called when you want to stop the timer
+			$('#start').html('Resume');
+			$('#pauseinfo').css('visibility', 'visible');
+			start = false;
+		  clearTimeout(tid);
+		}
+
 		$('canvas').drawImage({
+			layer: true,
 	  	source: 'aus2.png',
 	  	x: 300, y: 300, height: 554, width: 600
-		});
-
-		$('canvas').drawArc({
-		  fillStyle: 'darkred',
-		  x: 320, y: 80,
-		  radius: 10
 		});
 
 		</script>
