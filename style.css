@@ -29,7 +29,15 @@ h3 {
   min-height: 50px;
 }
 
+#firstnationpopulation {
+  height: 50px;
+  color: darkred;
+}
 
+#colonialistpopulation {
+  height: 50px;
+  color: blue;
+}
 
 /* canvas {
   height: 100vh;
