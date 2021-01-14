@@ -82,13 +82,50 @@
 					popgrowth = 0.5;
 				}
 
-				$('canvas').setLayerGroup('states', {
-					radius: '-='+popgrowth,
+
+
+				// $('canvas').setLayerGroup('colonialstates', {
+				// 	radius: '+=2',
+				// })
+				// .drawLayers();
+
+				$('canvas').setLayer('colonialnsw', {
+					radius: '+=2',
 				})
 				.drawLayers();
 
-				$('canvas').setLayerGroup('colonialstates', {
-					radius: '+='+2,
+				$('canvas').setLayer('colonialvic', {
+					radius: '+=1.8',
+				})
+				.drawLayers();
+
+				$('canvas').setLayer('colonialqld', {
+					radius: '+=1.6',
+				})
+				.drawLayers();
+
+				$('canvas').setLayer('colonialwa', {
+					radius: '+=1.1',
+				})
+				.drawLayers();
+
+				$('canvas').setLayer('colonialsa', {
+					radius: '+=0.8',
+				})
+				.drawLayers();
+
+				$('canvas').setLayer('colonialnt', {
+					radius: '+=0.3',
+				})
+				.drawLayers();
+
+				$('canvas').setLayer('colonialtas', {
+					radius: '+=0.4',
+				})
+				.drawLayers();
+
+				$('canvas').setLayerGroup('states', {
+					radius: '-='+popgrowth,
 				})
 				.drawLayers();
 
@@ -265,7 +302,7 @@
 					groups: ['colonialstates'],
 					fillStyle: 'blue',
 					x: 550, y: 260,
-					radius: 1,
+					radius: 0.7,
 					click: function(layer) {
 						// code to run when square is clicked
 						console.log('test');
@@ -278,7 +315,7 @@
 					groups: ['colonialstates'],
 					fillStyle: 'blue',
 					x: 450, y: 560,
-					radius: 1,
+					radius: 0.3,
 					click: function(layer) {
 						// code to run when square is clicked
 						console.log('test');
@@ -291,7 +328,7 @@
 					groups: ['colonialstates'],
 					fillStyle: 'blue',
 					x: 60, y: 360,
-					radius: 1,
+					radius: 0.5,
 					click: function(layer) {
 						// code to run when square is clicked
 						console.log('test');
@@ -317,7 +354,7 @@
 					groups: ['colonialstates'],
 					fillStyle: 'blue',
 					x: 320, y: 90,
-					radius: 0.5,
+					radius: 0.2,
 					click: function(layer) {
 						// code to run when square is clicked
 						console.log('test');
@@ -338,7 +375,7 @@
 						groups: ['colonialstates'],
 						fillStyle: 'blue',
 						x: 320, y: 380,
-						radius: 1,
+						radius: 0.4,
 						click: function(layer) {
 							// code to run when square is clicked
 							console.log('test');
