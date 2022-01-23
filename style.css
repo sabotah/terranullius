@@ -33,7 +33,7 @@ h3 {
 #firstnationpopulation, #firstnationdeathcount, .victims {
   height: 50px;
   color: darkred;
-  text-shadow: 2px 2px 4px #000000;
+  /* text-shadow: 2px 2px 4px #000000; */
   font-weight: bold;
   font-size: 24px;
 }
@@ -41,7 +41,7 @@ h3 {
 #colonialistpopulation, #colonialistdeathcount, .attackers {
   height: 50px;
   color: blue;
-  text-shadow: 2px 2px 4px #000000;
+  /* text-shadow: 2px 2px 4px #000000; */
   font-weight: bold;
   font-size: 24px;
 }
@@ -63,6 +63,10 @@ h3 {
 
 #title {
   color:darkred;
+}
+
+.victims, .attackers, #massacreevent {
+  font-size: 14px;
 }
 /* canvas {
   height: 100vh;
