@@ -1,0 +1,533 @@
+<html>
+	<head>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-3" id="timeline">
+					* BP = Before Present Day
+				</div>
+				<div class="col-9">
+					<h1 id="title">Terra Nullius</h1>
+					<div class="row" id="populationcontainer">
+						<div class="col-6" id="firstnationpopulation"></div>
+						<div class="col-6" id="colonialistpopulation"></div>
+					</div>
+					<div class="row" id="deathcount">
+						<h3>documented massacre death count</h3>
+						<div class="col-6" id="firstnationdeathcount">0</div>
+						<div class="col-6" id="colonialistdeathcount">0</div>
+						
+					</div>
+					<h3 id="eventdescription"></h3>
+
+					<canvas id="canvas" width="990" height="600">
+					</canvas>
+					<button class="btn btn-danger" id="start">Start</button>
+					<h3 id="pauseinfo">[ Paused, Click Resume to Continue ]</h3>
+				</div>
+				<div class="col-12" id="massacreevent"></div>
+				<div>
+					<small>
+						BP = Years Before Present Day<br>
+						DISCLAIMER: Population points are not very accurate and should not be trusted. Send me the maths and I'll make it better. nic@nic.id.au<br>
+						References:<br>
+						Massacres: <a target="_blank" href="https://c21ch.newcastle.edu.au/colonialmassacres/timeline.php">https://c21ch.newcastle.edu.au/colonialmassacres/timeline.php</a><br>
+						Event Timeline: <a target="_blank" href="https://en.wikipedia.org/wiki/Timeline_of_Australian_history">https://en.wikipedia.org/wiki/Timeline_of_Australian_history</a>
+
+					</small>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jcanvas/21.0.1/min/jcanvas.min.js"></script>
+		<script>
+
+
+		function percentage(num, per)
+		{
+		  return (num/100)*per;
+		}
+		// set timeout
+
+
+
+
+		var iterationcount = 0;
+		var timelabel = 60000; // 60000 250
+		var popgrowth = 2;
+		var start = false;
+		var timer = 500;
+		var adtime = 0; // 0 1770
+		var tid;
+		var firstnationpopulation = 0;
+		var colonialistpopulation = 0;
+		var massacredata = null;
+		var firstnationdeathcount = 0;
+		var colonialistdeathcount = 0;
+
+		$.getJSON("massacres.json", function(data){
+			massacredata = data;
+        }).fail(function(){
+            console.log("An error has occurred.");
+        });
+
+		$('#start').click(function(){
+			console.log(adtime);
+			if(adtime == 1780) {
+				$('#deathcount').css('visibility','visible').hide().fadeIn('slow');
+			}
+
+			if(start == false) {
+				tid = setTimeout(mycode, timer);
+				$(this).html('Pause');
+				$('#pauseinfo').css('visibility', 'hidden');
+				start = true;
+			}
+			else {
+				abortTimer();
+			}
+		})
+
+		function mycode() {
+
+			$('canvas').setLayerGroup('states', {
+				radius: '+='+popgrowth,
+			})
+			.drawLayers();
+
+			$('#timeline').append('<br>'+timelabel+'BP');
+			if(adtime > 0) {
+				$('#timeline').append(' :: '+adtime+'AD');
+			}
+
+			if(adtime >= 1790) {
+				if(adtime >= 1790 && adtime < 1850) {
+					popgrowth = 1;
+				}
+				else {
+					popgrowth = 0.5;
+				}
+
+
+
+				// $('canvas').setLayerGroup('colonialstates', {
+				// 	radius: '+=2',
+				// })
+				// .drawLayers();
+
+				$('canvas').setLayer('colonialnsw', {
+					radius: '+=2',
+				})
+				.drawLayers();
+
+				$('canvas').setLayer('colonialvic', {
+					radius: '+=1.8',
+				})
+				.drawLayers();
+
+				$('canvas').setLayer('colonialqld', {
+					radius: '+=1.6',
+				})
+				.drawLayers();
+
+				$('canvas').setLayer('colonialwa', {
+					radius: '+=1.1',
+				})
+				.drawLayers();
+
+				$('canvas').setLayer('colonialsa', {
+					radius: '+=0.8',
+				})
+				.drawLayers();
+
+				$('canvas').setLayer('colonialnt', {
+					radius: '+=0.3',
+				})
+				.drawLayers();
+
+				$('canvas').setLayer('colonialtas', {
+					radius: '+=0.4',
+				})
+				.drawLayers();
+
+				$('canvas').setLayerGroup('states', {
+					radius: '-='+popgrowth,
+				})
+				.drawLayers();
+
+				console.log('wefwef '+firstnationpopulation);
+				console.log('ddddd '+colonialistpopulation);
+
+				firstnationpopulation = firstnationpopulation - percentage(firstnationpopulation,2);
+				colonialistpopulation = colonialistpopulation + percentage(colonialistpopulation,20);
+
+				$('#firstnationpopulation').html('~'+Math.floor(firstnationpopulation));
+				$('#colonialistpopulation').html('~'+Math.floor(colonialistpopulation));
+			}
+
+
+			if(timelabel == 60000) {
+
+				abortTimer();
+				$('#eventdescription').html('60000 BP :: First Humans arrive in Australia via Land Bridge from Indonesia')
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'nt',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 320, y: 80,
+					radius: 2.5,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+			}
+
+			if(timelabel == 50000) {
+				$('#eventdescription').html('50000 BP :: Evidence of Humans in WA and QLD')
+				abortTimer();
+				// add WA, QLD
+				$('canvas').drawArc({
+					layer: true,
+					name: 'wa',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 60, y: 350,
+					radius: 2.5,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'qld',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 550, y: 250,
+					radius: 5,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+			}
+
+			if(timelabel == 40000) {
+				$('#eventdescription').html('40000 BP :: Evidence of Humans in NSW and TAS')
+				abortTimer();
+				// add NSW, TAS
+				$('canvas').drawArc({
+					layer: true,
+					name: 'nsw',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 550, y: 420,
+					radius: 5,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'vic',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 480, y: 480,
+					radius: 2.5,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'tas',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 450, y: 550,
+					radius: 1,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+			}
+
+			if(timelabel == 30000) {
+				$('canvas').drawArc({
+					layer: true,
+					name: 'sa',
+					groups: ['states'],
+					fillStyle: 'darkred',
+					x: 320, y: 370,
+					radius: 2,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+			}
+
+			if(adtime == 1770) {
+				$('#eventdescription').html("1770 AD :: Captain Cook claims the east coast of Australia for Britian\
+				<br>The Land is Claimed as Terra Nullius (No One's Land) Regardless of documented evidence on the contrary.");
+
+				$('#title').css('color','blue');
+
+				firstnationpopulation = 770000;
+
+				$('#firstnationpopulation').html(firstnationpopulation);
+
+				abortTimer();
+			}
+
+			if(adtime >= 1790) {
+				$('#massacreevent').html('').fadeOut('slow');
+				max = adtime + 10;
+				$(massacredata).each(function (i,event){
+					// console.log(event.date);
+					// console.log(event.date.slice(-4));
+					if(event.date.slice(-4) >= adtime && event.date.slice(-4) < max) {
+						console.log(event);
+						$('#massacreevent').append(event.date+' '+event.colony+' '+event.location+' '+event.languagegroup+' VictimDeaths: <span class="victims">'+event.victims+'</span> AttackerDeaths: <span class="attackers">'+event.attackers+'</span><br>').fadeIn('slow')
+						// in the range, so output it
+						// we get the numbers and add them
+						firstnationdeathcount = +firstnationdeathcount + +event.victims.match(/\d+/);
+						colonialistdeathcount = +colonialistdeathcount + +event.attackers.match(/\d+/);
+						abortTimer();
+					}
+				})
+				$('#firstnationdeathcount').html(firstnationdeathcount);
+				$('#colonialistdeathcount').html(colonialistdeathcount);
+			}
+
+			if(adtime == 1790) {
+
+				
+				$('#eventdescription').html('1788 AD :: The First Fleet Arrives (11 Ships, 1,350 people). Britain establishes a penal colony in Sydney Cove, on <span style="color: blue">Australia Day</span>.\
+				<br>15 months after arrival, a major smallbox epidemic breaks out. Colonialists were immune, however 70% of the first human population would die.');
+				colonialistpopulation = 1350;
+
+				$('#colonialistpopulation').html(colonialistpopulation);
+
+
+
+
+				$('canvas').setLayer('nsw', {
+					radius: '-=5',
+				})
+				.drawLayers();
+
+				abortTimer();
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'colonialnsw',
+					groups: ['colonialstates'],
+					fillStyle: 'blue',
+					x: 550, y: 440,
+					radius: 1,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+			}
+
+			if(adtime == 1820) {
+				$('#populationcontainer').hide();
+				$('#eventdescription').html("1824 AD :: Brisbane Settlement is founded.<br>1825 AD :: Van Dieman's Land is established.<br>1827 AD :: Western Australia is created.");
+
+				abortTimer();
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'colonialqld',
+					groups: ['colonialstates'],
+					fillStyle: 'blue',
+					x: 550, y: 260,
+					radius: 0.7,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'colonialtas',
+					groups: ['colonialstates'],
+					fillStyle: 'blue',
+					x: 450, y: 560,
+					radius: 0.3,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'colonialwa',
+					groups: ['colonialstates'],
+					fillStyle: 'blue',
+					x: 60, y: 360,
+					radius: 0.5,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'colonialvic',
+					groups: ['colonialstates'],
+					fillStyle: 'blue',
+					x: 480, y: 490,
+					radius: 1,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+
+				$('canvas').drawArc({
+					layer: true,
+					name: 'colonialnt',
+					groups: ['colonialstates'],
+					fillStyle: 'blue',
+					x: 320, y: 90,
+					radius: 0.2,
+					click: function(layer) {
+						// code to run when square is clicked
+						console.log('test');
+					}
+				});
+			}
+
+			if(adtime == 1830) {
+					$('#eventdescription').html("1835 AD :: The doctrine of terra nullius is officially implemented, upon which British settlement was based. Reinforcing the British assertion that the land belonged to no-one prior to the British Crown taking possession of it, removing all land rights from Aboriginal people.");
+					abortTimer();
+			}
+
+			if(adtime == 1840) {
+					$('#eventdescription').html("1836 AD :: South Australia is established.");
+					$('canvas').drawArc({
+						layer: true,
+						name: 'colonialsa',
+						groups: ['colonialstates'],
+						fillStyle: 'blue',
+						x: 320, y: 380,
+						radius: 0.4,
+						click: function(layer) {
+							// code to run when square is clicked
+							console.log('test');
+						}
+					});
+
+					// probably time for a population spike nationwide from disease
+					$('canvas').setLayerGroup('states', {
+						radius: '-=3',
+					})
+					.drawLayers();
+
+					$('canvas').setLayer('nsw', {
+						radius: '+=3',
+					})
+					.drawLayers();
+
+					abortTimer();
+			}
+
+			if(adtime == 1850) {
+				$('#eventdescription').html('');
+			}
+
+			if(adtime == 2020) {
+				$('#eventdescription').html("2022 AD :: 26th of January is still Celebrated throughout the land, to Commemorate the Arrival of the British Colonists.");
+				abortTimer();
+			}
+
+			if(adtime > 2020) {
+				abortTimer();
+				$('#start').hide();
+				$('#pauseinfo').hide();
+				$('#title').html("Always Was. <br>Always Will Be.<br>Aboriginal Land.").fadeIn('slow');
+				$('#eventdescription').html("isn't it about time we changed the date?");
+				$('#title').css('color','darkred');
+			}
+
+
+
+
+			iterationcount++;
+			if(timelabel > 10000) {
+				timer = 1000;
+					timelabel = timelabel - 10000;
+			}
+			else if(timelabel == 3000) {
+				adtime = 0;
+				timelabel = 2020;
+			}
+			else if(timelabel <= 2020 && adtime < 1700) {
+				timelabel = timelabel - 100;
+				adtime = adtime + 100;
+				popgrowth = 0.5;
+			}
+			else if(adtime >= 1700) {
+				timelabel = timelabel - 10;
+				adtime = adtime + 10;
+			  popgrowth = 0;
+			}
+			else if(adtime >= 1780) {
+				timelabel = timelabel - 1;
+				adtime = adtime + 1;
+			}
+			else {
+				timelabel = timelabel - 1000;
+				popgrowth = 1;
+			}
+
+
+			$("#timeline").scrollTop($("#timeline")[0].scrollHeight);
+
+		  // do some stuff...
+			if (start == true && adtime <= 2020) {
+		  		tid = setTimeout(mycode, timer); // repeat myself
+			}
+
+			if(adtime >= 2020) {
+				// $('#start').hide();
+
+			}
+
+
+		}
+		function abortTimer() { // to be called when you want to stop the timer
+			$('#start').html('Resume');
+			$('#pauseinfo').css('visibility', 'visible');
+			start = false;
+		  clearTimeout(tid);
+		}
+
+		$('canvas').drawImage({
+			layer: true,
+	  	source: 'aus2.png',
+	  	x: 300, y: 300, height: 554, width: 600
+		});
+
+		</script>
+	</body>
+</html>

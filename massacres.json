@@ -1,0 +1,2410 @@
+[
+    {
+      "date": "1 Sep 1794",
+      "colony": "NSW",
+      "location": "Hawkesbury (1)",
+      "languagegroup": "Bediagal",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "7 Jun 1795",
+      "colony": "NSW",
+      "location": "Hawkesbury (2)",
+      "languagegroup": "Bediagal",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "3 May 1804",
+      "colony": "VDL",
+      "location": "Risdon Cove, River Derwent",
+      "languagegroup": "Big River [Leenowwine; Pangerninghe]",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "27 Apr 1805",
+      "colony": "NSW",
+      "location": "Nepean River",
+      "languagegroup": "Bediagal/Dharug",
+      "victims": "8 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Mar 1806",
+      "colony": "NSW",
+      "location": "Twofold Bay, South Coast",
+      "languagegroup": "Thawa or Djirringany",
+      "victims": "11 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1815 to 30 Nov 1815",
+      "colony": "VDL",
+      "location": "Oyster Bay, East Coast",
+      "languagegroup": "Oyster Bay",
+      "victims": "17 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "17 Apr 1816",
+      "colony": "NSW",
+      "location": "Appin",
+      "languagegroup": "Gundungurra",
+      "victims": "14 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1818",
+      "colony": "NSW",
+      "location": "Minnamurra River, South Coast",
+      "languagegroup": "Dharawal",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "15 Nov 1823",
+      "colony": "VDL",
+      "location": "Meredith River, Oyster Bay",
+      "languagegroup": "Oyster Bay / Little Swanport",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "2 (Colonisers)"
+    },
+    {
+      "date": "31 May 1824",
+      "colony": "NSW",
+      "location": "Bathurst Plains",
+      "languagegroup": "Wiradjuri",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Sep 1824",
+      "colony": "NSW",
+      "location": "Turon River",
+      "languagegroup": "Wiradjuri",
+      "victims": "45 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "5 Sep 1824 to 10 Sep 1824",
+      "colony": "NSW",
+      "location": "Mudgee, Rylstone",
+      "languagegroup": "Wiradjuri",
+      "victims": "16 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "14 Mar 1826",
+      "colony": "VDL",
+      "location": "Buxton's Property, East Coast",
+      "languagegroup": "Oyster Bay / Little Swanport",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Sep 1826",
+      "colony": "NSW",
+      "location": "Hunter Valley, The Bridgman Estate, Fal Brook",
+      "languagegroup": "Wonnarua",
+      "victims": "18 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "15 Sep 1826",
+      "colony": "VDL",
+      "location": "Dairy Plains Meander River (3)",
+      "languagegroup": "Port Sorell [Pallittore North]",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "9 Dec 1826",
+      "colony": "VDL",
+      "location": "Bank Head Farm",
+      "languagegroup": "Oyster Bay",
+      "victims": "14 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "22 Feb 1827 to 25 Feb 1827",
+      "colony": "NSW",
+      "location": "Paterson River, Hunter Valley",
+      "languagegroup": "Wonnarua",
+      "victims": "12 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Mar 1827 to 31 Mar 1827",
+      "colony": "VDL",
+      "location": "Lagoon Lower Marshes near Jordan River",
+      "languagegroup": "Big River",
+      "victims": "17 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "12 Apr 1827",
+      "colony": "VDL",
+      "location": "Elizabeth River (Mt Augustus) Eastern Midland Plain",
+      "languagegroup": "Oyster Bay",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "2 (Colonisers)"
+    },
+    {
+      "date": "1 May 1827 to 15 May 1827",
+      "colony": "VDL",
+      "location": "Sally Peak (1)",
+      "languagegroup": "Oyster Bay",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1827 to 30 Jun 1827",
+      "colony": "VDL",
+      "location": "Blackman River: intersection of Brumby Creek and Lake River",
+      "languagegroup": "Big River",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "3 (Colonisers)"
+    },
+    {
+      "date": "13 Jun 1827",
+      "colony": "VDL",
+      "location": "Dairy Plains Meander River (2)",
+      "languagegroup": "Port Sorell [Pallittore North]",
+      "victims": "9 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "24 Jun 1827",
+      "colony": "VDL",
+      "location": "Laycock Falls (Liffey Falls)",
+      "languagegroup": "Port Sorell [Pallittore North]",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "26 Jun 1827",
+      "colony": "VDL",
+      "location": "Quamby Brook",
+      "languagegroup": "Port Sorell [Pallittore North]",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "3 (Colonisers)"
+    },
+    {
+      "date": "30 Jul 1827",
+      "colony": "NSW",
+      "location": "Raffles Bay, NT",
+      "languagegroup": "Iwaidja",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Sep 1827 to 31 Oct 1827",
+      "colony": "NSW",
+      "location": "Yarramanbah, Qurindi, Liverpool Plains",
+      "languagegroup": "Gamilaraay or Guyinbaraay",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Dec 1827 to 31 Dec 1827",
+      "colony": "VDL",
+      "location": "The Retreat, (Cheshunt) Dairy Plains, Meander River",
+      "languagegroup": "Port Sorell [Pallittore North]",
+      "victims": "19 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Dec 1827 to 31 Dec 1827",
+      "colony": "VDL",
+      "location": "Dairy Plains Meander River (1)",
+      "languagegroup": "Port Sorell [Pallittore North]",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1828 to 31 Dec 1828",
+      "colony": "NSW",
+      "location": "Mill Creek, 32 kms north of Stroud",
+      "languagegroup": "Worimi",
+      "victims": "11 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1828 to 31 Jan 1828",
+      "colony": "VDL",
+      "location": "Cape Grim, VDL Co, NW Tasmania (1)",
+      "languagegroup": "North West",
+      "victims": "13 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "10 Feb 1828",
+      "colony": "VDL",
+      "location": "Cape Grim, VDL Co, Nw Tasmania (2)",
+      "languagegroup": "North West",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "19 Mar 1828",
+      "colony": "VDL",
+      "location": "Bullock Hunting Ground, East Tamar River",
+      "languagegroup": "North Midlands",
+      "victims": "14 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "2 Apr 1828",
+      "colony": "VDL",
+      "location": "Elizabeth River, Eastern Tiers",
+      "languagegroup": "Oyster Bay",
+      "victims": "17 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Jul 1828 to 30 Jul 1828",
+      "colony": "VDL",
+      "location": "Eastern Tiers",
+      "languagegroup": "Oyster Bay / Big River",
+      "victims": "17 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "23 Oct 1828",
+      "colony": "VDL",
+      "location": "Cockatoo Valley, Hollow Tree",
+      "languagegroup": "Oyster Bay",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "6 Dec 1828",
+      "colony": "VDL",
+      "location": "Tooms Lake, source of Macquarie River, Eastern Tiers",
+      "languagegroup": "Oyster Bay / Little Swanport",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "3 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1829 to 31 Dec 1829",
+      "colony": "SRC",
+      "location": "Swan Valley/Success Hill",
+      "languagegroup": "Whadjuk Noongar",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1829 to 31 Jan 1829",
+      "colony": "VDL",
+      "location": "St Paul’s River, East Coast",
+      "languagegroup": "Oyster Bay",
+      "victims": "9 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1829 to 31 Jan 1829",
+      "colony": "VDL",
+      "location": "Break O'Day Plains",
+      "languagegroup": "Oyster Bay",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "18 Feb 1829",
+      "colony": "VDL",
+      "location": "West Tamar",
+      "languagegroup": "Port Sorell [Pallittore North]",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Mar 1829 to 5 Mar 1829",
+      "colony": "VDL",
+      "location": "Richmond, Coal River",
+      "languagegroup": "Oyster Bay",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "28 Mar 1829",
+      "colony": "VDL",
+      "location": "Clyde and Ouse Rivers (1)",
+      "languagegroup": "Big River",
+      "victims": "9 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1829 to 30 Jun 1829",
+      "colony": "VDL",
+      "location": "Pittwater",
+      "languagegroup": "Oyster Bay",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "2 (Colonisers)"
+    },
+    {
+      "date": "1 Sep 1829",
+      "colony": "VDL",
+      "location": "East of Ben Lomond",
+      "languagegroup": "Ben Lomond",
+      "victims": "17 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1829 to 31 Oct 1829",
+      "colony": "VDL",
+      "location": "Ouse River",
+      "languagegroup": "Big River",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "10 Mar 1830",
+      "colony": "VDL",
+      "location": "Clyde and Ouse Rivers (2)",
+      "languagegroup": "Big River",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Apr 1830 to 8 Apr 1830",
+      "colony": "VDL",
+      "location": "Upper Clyde River",
+      "languagegroup": "Big River",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "18 Apr 1830",
+      "colony": "VDL",
+      "location": "Whitefoord Hills, Meander River",
+      "languagegroup": "Port Sorell [Pallittore North]",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "3 May 1830 to 5 May 1830",
+      "colony": "SRC",
+      "location": "Galup - Lake Monger",
+      "languagegroup": "Whadjuk Noongar",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "22 Aug 1830 to 27 Aug 1830",
+      "colony": "VDL",
+      "location": "Clyde River (2)",
+      "languagegroup": "Big River",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jul 1831",
+      "colony": "NSW",
+      "location": "Moreton Island",
+      "languagegroup": "Guwar",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "22 Dec 1832 to 31 Dec 1832",
+      "colony": "NSW",
+      "location": "Stradbroke Island, Moreton Bay",
+      "languagegroup": "Noonucal",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Mar 1833 to 31 Mar 1834",
+      "colony": "PPD",
+      "location": "Convincing Ground, Portland Bay",
+      "languagegroup": "Dhauwurd wurrung",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Apr 1833 to 1 Sep 1833",
+      "colony": "SRC",
+      "location": "Perth Area Killings",
+      "languagegroup": "Whadjuk Noongar",
+      "victims": "16 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1834 to 31 Dec 1834",
+      "colony": "NSW",
+      "location": "Belbora, between Gloucester & Wingham",
+      "languagegroup": "Binghi",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Aug 1834 to 31 Aug 1834",
+      "colony": "NSW",
+      "location": "Badu Island, Torres Strait",
+      "languagegroup": "",
+      "victims": "11 (Colonisers)",
+      "attackers": "0 (Aboriginal People)"
+    },
+    {
+      "date": "28 Oct 1834",
+      "colony": "SRC",
+      "location": "Pinjarra",
+      "languagegroup": "Pinjarup Noongar",
+      "victims": "15 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1835 to 31 Dec 1835",
+      "colony": "NSW",
+      "location": "Waterloo Plains, Namoi R. Liverpool Plains PD",
+      "languagegroup": "Gamilaraay or Nganyaywana",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1835 to 31 Dec 1835",
+      "colony": "NSW",
+      "location": "Upper Williams River, Barrington Tops",
+      "languagegroup": "Binghi",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1836 to 31 Dec 1836",
+      "colony": "NSW",
+      "location": "Dora Dora Station, Table Top Mountain",
+      "languagegroup": "Wiradjuri",
+      "victims": "12 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "27 May 1836",
+      "colony": "NSW",
+      "location": "Mt Dispersion, Murray River",
+      "languagegroup": "Kureinji or Dadi Dadi",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1836 to 31 Jul 1836",
+      "colony": "NSW",
+      "location": "Barraba",
+      "languagegroup": "Gamilaraay",
+      "victims": "80 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "16 Jul 1836",
+      "colony": "PPD",
+      "location": "Mt Cottrell,Werribee",
+      "languagegroup": "Wathawurrung",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "2 (Colonisers)"
+    },
+    {
+      "date": "1 May 1837 to 31 May 1837",
+      "colony": "SRC",
+      "location": "York",
+      "languagegroup": "Ballardong Noongar",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1837 to 30 Nov 1837",
+      "colony": "NSW",
+      "location": "Gravesend Mountain, Liverpool Plains PD",
+      "languagegroup": "Gamilaraay",
+      "victims": "200 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1837 to 30 Nov 1837",
+      "colony": "PPD",
+      "location": "Pyalong Station: Goulburn River: Mundy Massacre",
+      "languagegroup": "Taungurung",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "26 Jan 1838",
+      "colony": "NSW",
+      "location": "Waterloo Creek, Jews Lagoon",
+      "languagegroup": "Gamilaraay",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "12 Apr 1838",
+      "colony": "PPD",
+      "location": "Benalla: Faithfull Massacre",
+      "languagegroup": "Taungurung",
+      "victims": "8 (Colonisers)",
+      "attackers": "1 (Aboriginal People)"
+    },
+    {
+      "date": "1 May 1838",
+      "colony": "NSW",
+      "location": "Slaughterhouse Creek, Gwydir River",
+      "languagegroup": "Gamilaraay",
+      "victims": "300 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1838 to 30 Jun 1838",
+      "colony": "PPD",
+      "location": "Barfold Station, Campaspe Plains",
+      "languagegroup": "Djadjawurrung",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "2 (Colonisers)"
+    },
+    {
+      "date": "10 Jun 1838",
+      "colony": "NSW",
+      "location": "Myall Creek",
+      "languagegroup": "Gamilaraay or Yugambul",
+      "victims": "28 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jul 1838 to 31 Jul 1838",
+      "colony": "PPD",
+      "location": "Mt Mitchell Station",
+      "languagegroup": "Djadjawurrung",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Aug 1838 to 31 Aug 1838",
+      "colony": "NSW",
+      "location": "Ardgowan Island, Gwydir River, Liverpool Plains PD",
+      "languagegroup": "Wiriyaraay or Gamilaraay or Yugambul",
+      "victims": "9 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Aug 1838 to 31 Aug 1838",
+      "colony": "PPD",
+      "location": "Darlington Station",
+      "languagegroup": "Djadjawurrung",
+      "victims": "13 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Feb 1839 to 28 Feb 1839",
+      "colony": "PPD",
+      "location": "Maiden Hills",
+      "languagegroup": "Djadjawurrung",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Mar 1839 to 31 Mar 1839",
+      "colony": "NSW",
+      "location": "Junction of Murray and Darling Rivers (1)",
+      "languagegroup": "Tati tati",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1839 to 31 Oct 1839",
+      "colony": "PPD",
+      "location": "Murdering Gully, Mt Emu Creek",
+      "languagegroup": "Djargurd Wurrung or Keeray- Woorroong or Wirngilgnad dhalinanong",
+      "victims": "35 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "11 Nov 1839",
+      "colony": "NSW",
+      "location": "Junction, Darling & Murray Rivers (2)",
+      "languagegroup": "Tati tati",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Dec 1839 to 31 Jan 1840",
+      "colony": "PPD",
+      "location": "Blood Hole",
+      "languagegroup": "Djadjawurrung",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Dec 1839 to 31 Dec 1839",
+      "colony": "SA",
+      "location": "Langhorne's Ferry/Rufus River, Murray River (1)",
+      "languagegroup": "Maraura",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1840 to 31 Dec 1840",
+      "colony": "PPD",
+      "location": "LaTrobe Valley",
+      "languagegroup": "unknown",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "8 Mar 1840",
+      "colony": "PPD",
+      "location": "Fighting Hills",
+      "languagegroup": "Nundadjali",
+      "victims": "41 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Apr 1840",
+      "colony": "PPD",
+      "location": "Fighting Waterholes",
+      "languagegroup": "Wulluwurrung or Nundadjali",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "20 May 1840 to 31 May 1840",
+      "colony": "NSW",
+      "location": "Kunderang Brook Upper Macleay River Valley",
+      "languagegroup": "Dhanggati",
+      "victims": "24 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1840 to 30 Jun 1840",
+      "colony": "PPD",
+      "location": "Mount Rouse",
+      "languagegroup": "Djab wurrung or Gai wurrung",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1840 to 30 Jun 1840",
+      "colony": "PPD",
+      "location": "Mustons Station",
+      "languagegroup": "Djabwurrung or Gai wurrung",
+      "victims": "8 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1840 to 30 Jun 1840",
+      "colony": "SA",
+      "location": "Langhornes Ferry/Rufus River, Murray River (2)",
+      "languagegroup": "Erawirung",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "9 Jun 1840",
+      "colony": "PPD",
+      "location": "Barnadown Station, Campaspe Plains",
+      "languagegroup": "Djadjawurrung or Ngurai-illamwurrung",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jul 1840 to 14 Jul 1840",
+      "colony": "SA",
+      "location": "Maria massacre, Coorong",
+      "languagegroup": "Milmenrua",
+      "victims": "26 (Colonisers)",
+      "attackers": "6 (Aboriginal People)"
+    },
+    {
+      "date": "1 Aug 1840 to 31 Aug 1840",
+      "colony": "PPD",
+      "location": "Victoria Valley",
+      "languagegroup": "Djabwurrung",
+      "victims": "23 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1840 to 31 Oct 1840",
+      "colony": "PPD",
+      "location": "Boney Point, Gippsland",
+      "languagegroup": "Gunnai or Tatungalung or Braiakaulung",
+      "victims": "15 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1840 to 30 Nov 1840",
+      "colony": "PPD",
+      "location": "Connell’s Ford",
+      "languagegroup": "Nundadjali or Wulluwwurrung",
+      "victims": "15 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1840 to 30 Nov 1840",
+      "colony": "PPD",
+      "location": "Burrumbeep",
+      "languagegroup": "Pirtpirtwurrung",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Dec 1840 to 31 Dec 1840",
+      "colony": "PPD",
+      "location": "Tahara Station",
+      "languagegroup": "Wulluwurrung",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1841 to 31 Dec 1841",
+      "colony": "PPD",
+      "location": "Butchers Creek",
+      "languagegroup": "Tatungalung",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1841 to 31 Dec 1841",
+      "colony": "NSW",
+      "location": "Butcher's Creek, Barwon River",
+      "languagegroup": "Pooncarie/Parkantyi",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "2 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1841 to 31 Dec 1841",
+      "colony": "NSW",
+      "location": "Black Camp Creek, (Spring Gully Creek), Williams River",
+      "languagegroup": "Worimi",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "2 (Colonisers)"
+    },
+    {
+      "date": "27 Feb 1841 to 10 Mar 1841",
+      "colony": "SRC",
+      "location": "Wonnerup 'Minninup'",
+      "languagegroup": "Wardandi Noongar",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Apr 1841 to 30 Apr 1841",
+      "colony": "NSW",
+      "location": "Orara River, near Seelands",
+      "languagegroup": "Ngarabal?",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 May 1841 to 31 May 1841",
+      "colony": "NSW",
+      "location": "Darkie Point, Bellingen River, New England Pastoral District",
+      "languagegroup": "Baanbay",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 May 1841 to 31 May 1841",
+      "colony": "SA",
+      "location": "Hornet's Nest, 68 kms east of Lake Bonney, Murray River",
+      "languagegroup": "Ngintait",
+      "victims": "8 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1841 to 30 Jun 1841",
+      "colony": "PPD",
+      "location": "Mount Sturgeon Station",
+      "languagegroup": "Djabwurrung",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1841 to 25 Jul 1841",
+      "colony": "PPD",
+      "location": "Woodlands",
+      "languagegroup": "Knenknenwurrung",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "23 Aug 1841",
+      "colony": "PPD",
+      "location": "Rufus River",
+      "languagegroup": "Yuyu or Ngintait or Marawara",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "27 Aug 1841",
+      "colony": "SA",
+      "location": "Rufus River, Lake Victoria",
+      "languagegroup": "Maraura",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1841 to 31 Oct 1841",
+      "colony": "NSW",
+      "location": "Grantham, Moreton Bay Pastoral District",
+      "languagegroup": "Yugara or Giabal",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1841 to 31 Oct 1841",
+      "colony": "NSW",
+      "location": "Bogan River beyond Mt Harris",
+      "languagegroup": "Ngiyampaa",
+      "victims": "12 (Aboriginal People)",
+      "attackers": "3 (Colonisers)"
+    },
+    {
+      "date": "1 Dec 1841 to 28 Feb 1842",
+      "colony": "PPD",
+      "location": "King River, above Oxley Plains(Wangaratta)",
+      "languagegroup": "",
+      "victims": "200 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Feb 1842 to 28 Feb 1842",
+      "colony": "PPD",
+      "location": "Tarrone Station, February 1842",
+      "languagegroup": "Koornkopanoot or Bi:gwurrung",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Feb 1842 to 28 Feb 1842",
+      "colony": "NSW",
+      "location": "Kilcoy",
+      "languagegroup": "Giggarbarah, Woongunbarah and other groups in transit",
+      "victims": "60 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "24 Feb 1842",
+      "colony": "PPD",
+      "location": "Lubra Creek, Caramut Station",
+      "languagegroup": "Gai wurrung or Djabwurrung",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 May 1842 to 15 May 1842",
+      "colony": "SA",
+      "location": "Pillaworta Station, Arno Bay, Eyre Peninsula",
+      "languagegroup": "Battara",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "7 Aug 1842 to 18 Aug 1842",
+      "colony": "PPD",
+      "location": "Eumerella",
+      "languagegroup": "Tatungalung",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "2 (Colonisers)"
+    },
+    {
+      "date": "11 Sep 1842",
+      "colony": "NSW",
+      "location": "Deepwater (1), New England Pastoral District",
+      "languagegroup": "Guyambal or Ngarabul or Marbal",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1842 to 31 Oct 1842",
+      "colony": "PPD",
+      "location": "Tarrone Station, October 1842",
+      "languagegroup": "Bi:gwurrung or Koornkopanoot",
+      "victims": "9 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1842 to 31 Dec 1842",
+      "colony": "NSW",
+      "location": "Yandilla and Tummaville, Darling Downs Pastoral District",
+      "languagegroup": "Bigambul?",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Dec 1842 to 31 Dec 1842",
+      "colony": "PPD",
+      "location": "Hollands Landing",
+      "languagegroup": "Tatungalung",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1843 to 31 Dec 1843",
+      "colony": "NSW",
+      "location": "Dirawong / Goanna Headland, Evans Head",
+      "languagegroup": "Bundjalung",
+      "victims": "100 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "12 Jan 1843 to 31 Dec 1843",
+      "colony": "NSW",
+      "location": "Sheep Station Bluff Upper McLeay River",
+      "languagegroup": "Dhanggati",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Feb 1843 to 28 Feb 1843",
+      "colony": "PPD",
+      "location": "Barmah Lake",
+      "languagegroup": "Barababaraba or Jabulajabula or Yorta Yorta",
+      "victims": "26 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jul 1843 to 31 Jul 1843",
+      "colony": "PPD",
+      "location": "Warrigal Creek Waterhole",
+      "languagegroup": "Brataualung",
+      "victims": "75 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jul 1843 to 31 Jul 1843",
+      "colony": "PPD",
+      "location": "Warrigal Creek Mouth",
+      "languagegroup": "Brataualung",
+      "victims": "25 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "15 Jul 1843 to 31 Jul 1843",
+      "colony": "PPD",
+      "location": "Freshwater Creek, Gippsland",
+      "languagegroup": "Brataualung",
+      "victims": "25 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "15 Jul 1843 to 31 Jul 1843",
+      "colony": "PPD",
+      "location": "Gammon Creek, Gippsland",
+      "languagegroup": "Brataualung",
+      "victims": "25 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "27 Jul 1843",
+      "colony": "NSW",
+      "location": "Mt Haldon, Darling Downs Pastoral District",
+      "languagegroup": "Yugara or Garumngar",
+      "victims": "12 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Aug 1843 to 30 Aug 1843",
+      "colony": "PPD",
+      "location": "Victoria Range",
+      "languagegroup": "Djabwurrung or Nundadjali",
+      "victims": "17 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Sep 1843 to 10 Sep 1843",
+      "colony": "PPD",
+      "location": "Fitzroy River (1)",
+      "languagegroup": "Dhauwurd wurrung",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Sep 1843 to 30 Sep 1843",
+      "colony": "PPD",
+      "location": "Crawford River",
+      "languagegroup": "Dhauwurd wurrung or Wulluwurrung",
+      "victims": "9 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Sep 1843 to 31 Oct 1843",
+      "colony": "NSW",
+      "location": "Rosewood Scrub, Moreton Bay Pastoral District",
+      "languagegroup": "Yugara?",
+      "victims": "12 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1843 to 30 Nov 1843",
+      "colony": "PPD",
+      "location": "Clunie",
+      "languagegroup": "Nundadjali or Mardidjali",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1843 to 1 Jun 1844",
+      "colony": "PPD",
+      "location": "Tambo Crossing",
+      "languagegroup": "Tatungalung or Brabralung",
+      "victims": "70 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1844 to 31 Dec 1847",
+      "colony": "NSW",
+      "location": "Crampton’s Corner, Maranoa Pastoral District",
+      "languagegroup": "Gawambaraay or Bigambul?",
+      "victims": "15 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "10 Jul 1844 to 20 Jul 1844",
+      "colony": "SA",
+      "location": "Mt Bryan, near Burra",
+      "languagegroup": "",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "17 Oct 1844",
+      "colony": "NSW",
+      "location": "Bluff Rock New England Pastoral District",
+      "languagegroup": "Marbal or Ngarbal",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1845 to 31 Dec 1845",
+      "colony": "NSW",
+      "location": "Darkey Flat",
+      "languagegroup": "Geynyan?",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1845 to 31 Dec 1845",
+      "colony": "NSW",
+      "location": "Upper Macleay River",
+      "languagegroup": "Dhanggati",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Mar 1845",
+      "colony": "NSW",
+      "location": "Deepwater (2), New England Pastoral District",
+      "languagegroup": "Guyambal or Ngarabul or Marbal",
+      "victims": "16 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jul 1845 to 31 Jul 1845",
+      "colony": "PPD",
+      "location": "Mt Arapiles",
+      "languagegroup": "Mardidjali",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "2 Jul 1845",
+      "colony": "PPD",
+      "location": "Naracoorte Caves",
+      "languagegroup": "Buandig",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Sep 1845 to 30 Sep 1845",
+      "colony": "NSW",
+      "location": "Mount Foster, Wellington Pastoral District",
+      "languagegroup": "",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1846 to 31 Dec 1846",
+      "colony": "NSW",
+      "location": "Junction of Murray and Murrumbidgee Rivers",
+      "languagegroup": "Dadi Dadi or Weki Weki",
+      "victims": "70 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Aug 1846 to 31 Aug 1846",
+      "colony": "NSW",
+      "location": "Bogan River, Wellington Pastoral District",
+      "languagegroup": "unknown",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Aug 1846 to 2 Aug 1846",
+      "colony": "PPD",
+      "location": "Aire River Estuary, Cape Otway",
+      "languagegroup": "Gadubanud",
+      "victims": "8 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1846",
+      "colony": "NSW",
+      "location": "Dourallie Creek, Upper Macleay River Valley",
+      "languagegroup": "Dhanggati",
+      "victims": "60 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "16 Dec 1846",
+      "colony": "PPD",
+      "location": "Snowy River",
+      "languagegroup": "Tatungalung or Krauatungulung",
+      "victims": "15 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "10 Apr 1847 to 20 Apr 1847",
+      "colony": "NSW",
+      "location": "Whiteside Station, Moreton Bay Pastoral District",
+      "languagegroup": "Buyibara or Yugarabul",
+      "victims": "50 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jul 1847 to 31 Jul 1847",
+      "colony": "PPD",
+      "location": "Mt Eccles",
+      "languagegroup": "Dhauwurd wurrung",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jul 1847 to 31 Jul 1847",
+      "colony": "PPD",
+      "location": "Mt Napier",
+      "languagegroup": "Wulluwurrung or Djabwurrung or Gai wurrung",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "12 Sep 1847 to 30 Sep 1847",
+      "colony": "NSW",
+      "location": "Boonall Station, MacIntyre River region",
+      "languagegroup": "Bigambul or Gawambaraay",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1847 to 31 Oct 1847",
+      "colony": "NSW",
+      "location": "Callandoon Station MacIntyre River",
+      "languagegroup": "Gungabula",
+      "victims": "12 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "29 Nov 1847",
+      "colony": "NSW",
+      "location": "Kangaroo Creek, Clarence Pastoral District",
+      "languagegroup": "Gumbaynggnir",
+      "victims": "23 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1848 to 31 Dec 1848",
+      "colony": "NSW",
+      "location": "Warroo Massacre, Maranoa Pastoral District",
+      "languagegroup": "Bigambul from north of the Macintyre",
+      "victims": "100 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1848 to 31 Dec 1848",
+      "colony": "NSW",
+      "location": "Fitzgerald’s Burgurrah Station Maranoa Pastoral District",
+      "languagegroup": "Mandandanji or Bigambul or Wirray Wirray or Kogai",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1848 to 30 Jun 1848",
+      "colony": "PPD",
+      "location": "Beveridge Island",
+      "languagegroup": "Wemba Wemba or Wadi Wadi",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "30 Jun 1848",
+      "colony": "NSW",
+      "location": "Umbercollie Station, MacIntyre River",
+      "languagegroup": "Bigambul",
+      "victims": "12 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1848 to 31 Oct 1848",
+      "colony": "NSW",
+      "location": "Muckadilla Creek Maranoa Pastoral District",
+      "languagegroup": "Mandandanji",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1848 to 30 Nov 1848",
+      "colony": "SA",
+      "location": "Avenue Range station, near Guichen Bay",
+      "languagegroup": "Wattatonga",
+      "victims": "9 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "23 Apr 1849",
+      "colony": "NSW",
+      "location": "Yamboucal Station, Maranoa Pastoral District",
+      "languagegroup": "Mandandanji",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 May 1849 to 31 May 1849",
+      "colony": "NSW",
+      "location": "Carbucky Station Maranoa Pastoral District",
+      "languagegroup": "Wiriyaraay or Gawambaraay",
+      "victims": "100 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 May 1849 to 31 May 1849",
+      "colony": "NSW",
+      "location": "Severn (Dumaresq) River, Maranoa PD",
+      "languagegroup": "Marbal or Guyambul",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 May 1849",
+      "colony": "SA",
+      "location": "Yeelanna, Eyre Peninsula",
+      "languagegroup": "",
+      "victims": "8 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "27 May 1849",
+      "colony": "SA",
+      "location": "Waterloo Bay, Elliston, Eyre Peninsula",
+      "languagegroup": "Wirangu",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1849 to 31 Jul 1849",
+      "colony": "NSW",
+      "location": "‘The Cedars’, Burnett River",
+      "languagegroup": "Taribelang",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "2 (Colonisers)"
+    },
+    {
+      "date": "20 Jul 1849 to 31 Jul 1849",
+      "colony": "NSW",
+      "location": "Talavera Station, Maranoa Pastoral District",
+      "languagegroup": "Mandandanji or Bigambul or Wirray Wirray or Kogai",
+      "victims": "50 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1850 to 31 Dec 1850",
+      "colony": "PPD",
+      "location": "The Slaughterhouse",
+      "languagegroup": "Tatungalung or Brabralung",
+      "victims": "15 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1850 to 31 Dec 1850",
+      "colony": "PPD",
+      "location": "Milly, Brodribb River",
+      "languagegroup": "Krauatungulung",
+      "victims": "15 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1850 to 12 Jan 1855",
+      "colony": "VIC",
+      "location": "Murderers Flat",
+      "languagegroup": "Dhauwurd wurrung",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "4 Mar 1850",
+      "colony": "NSW",
+      "location": "Yuleba Creek, Maranoa PD",
+      "languagegroup": "Mandandanji or Barunggam",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1850 to 31 Oct 1850",
+      "colony": "NSW",
+      "location": "Ukabulla Station (1), Maranoa PD",
+      "languagegroup": "Mandandanji or Barunggam",
+      "victims": "13 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "24 Dec 1851 to 3 Jan 1852",
+      "colony": "NSW",
+      "location": "Fraser Island",
+      "languagegroup": "[Butchulla] or a collection of clans that had sought refuge on the island",
+      "victims": "100 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Mar 1852 to 31 Mar 1852",
+      "colony": "SA",
+      "location": "Brachyna Gorge Flinders Ranges",
+      "languagegroup": "Yura - Adnyamathanha",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "5 May 1852 to 8 May 1852",
+      "colony": "NSW",
+      "location": "Yamboucal Maranoa Pastoral District",
+      "languagegroup": "Mandandanji",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "20 Sep 1852 to 30 Sep 1852",
+      "colony": "NSW",
+      "location": "Moonie Station, Maranoa Pastoral District",
+      "languagegroup": "Bigambul (Balonne Aborigines)",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1852 to 30 Nov 1852",
+      "colony": "NSW",
+      "location": "Ukabulla Station (2), Maranoa PD",
+      "languagegroup": "Mandandanji? and Yiman people from the Dawson River",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "31 Dec 1853 to 1 Jan 1854",
+      "colony": "NSW",
+      "location": "Angel's Beach, East Ballina, Richmond PD",
+      "languagegroup": "Bundjalung",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "3 Jun 1854 to 11 Aug 1854",
+      "colony": "SRC",
+      "location": "Bootanell Swamp/Springs Greenough killings",
+      "languagegroup": "Naaguja, Nanda",
+      "victims": "15 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1854 to 30 Nov 1854",
+      "colony": "VIC",
+      "location": "Apsley, Western Wimmera",
+      "languagegroup": "Jandwadjali",
+      "victims": "18 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1854",
+      "colony": "NSW",
+      "location": "Maryborough, Burnett PD",
+      "languagegroup": "Gubbi Gubbi? or Butchulla?",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "26 Dec 1855",
+      "colony": "NSW",
+      "location": "Mt Larcom Station Leichhardt Pastoral District",
+      "languagegroup": "Gayiri",
+      "victims": "6 (Colonisers)",
+      "attackers": "0 (Aboriginal People)"
+    },
+    {
+      "date": "1 Jan 1856 to 31 Dec 1856",
+      "colony": "NSW",
+      "location": "Rain forest, Towel Creek, Clarence PD",
+      "languagegroup": "Dhanggati",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "27 Oct 1857",
+      "colony": "NSW",
+      "location": "Hornet Bank Station, Upper Burnett Pastoral District",
+      "languagegroup": "Gungabula or Yiman",
+      "victims": "11 (Colonisers)",
+      "attackers": "0 (Aboriginal People)"
+    },
+    {
+      "date": "1 Nov 1857 to 30 Nov 1857",
+      "colony": "NSW",
+      "location": "Hornet Bank aftermath",
+      "languagegroup": "Yiman",
+      "victims": "80 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "15 Apr 1858",
+      "colony": "NSW",
+      "location": "Whiteside Station, Moreton Bay PD",
+      "languagegroup": "Buyibara or Yugarabul",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1859 to 24 Feb 1859",
+      "colony": "NSW",
+      "location": "Brewarinna Fish Traps, Barwon River (1)",
+      "languagegroup": "Pooncarie/Parkantyi",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1859 to 30 Nov 1859",
+      "colony": "QLD",
+      "location": "Fitzroy River (2)",
+      "languagegroup": "Karunbara or Rakiwara or Bayali",
+      "victims": "8 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Dec 1859 to 31 Dec 1859",
+      "colony": "QLD",
+      "location": "The 'Sapphire' massacre, Torres Strait",
+      "languagegroup": "Gudang?",
+      "victims": "18 (Colonisers)",
+      "attackers": "0 (Aboriginal People)"
+    },
+    {
+      "date": "1 Mar 1860 to 31 Mar 1860",
+      "colony": "QLD",
+      "location": "Yuleba Creek. Bendemere Station",
+      "languagegroup": "Waka Waka?",
+      "victims": "15 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "6 Nov 1860",
+      "colony": "QLD",
+      "location": "Fitzroy River, Rockhampton",
+      "languagegroup": "Karunbara or Rakiwara or Bayali",
+      "victims": "8 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1861 to 31 Dec 1861",
+      "colony": "NSW",
+      "location": "Brewarinna Fish Traps, Barwon River (2)",
+      "languagegroup": "Pooncarie/Parkantyi",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1861 to 31 Jan 1861",
+      "colony": "QLD",
+      "location": "Hardie's Station massacre, Dugandan Scrub",
+      "languagegroup": "",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1861 to 31 Dec 1861",
+      "colony": "QLD",
+      "location": "Manumbar Station, Burnett River region",
+      "languagegroup": "Waka Waka",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "17 Oct 1861",
+      "colony": "QLD",
+      "location": "Cullin la Ringo",
+      "languagegroup": "Gayiri",
+      "victims": "19 (Colonisers)",
+      "attackers": "0 (Aboriginal People)"
+    },
+    {
+      "date": "19 Oct 1861",
+      "colony": "QLD",
+      "location": "Upper Maranoa",
+      "languagegroup": "Gungabula",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "25 Oct 1861",
+      "colony": "QLD",
+      "location": "Nogoa River",
+      "languagegroup": "Gayiri",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "26 Nov 1861",
+      "colony": "QLD",
+      "location": "Expedition Range",
+      "languagegroup": "Mandalgu",
+      "victims": "60 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "10 Dec 1861",
+      "colony": "QLD",
+      "location": "Dawson River",
+      "languagegroup": "Mandalgu",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1862 to 31 Dec 1862",
+      "colony": "QLD",
+      "location": "Planet Creek massacre, Albinia Downs station, 100 kms south east of Springsure",
+      "languagegroup": "Gayiri",
+      "victims": "70 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Feb 1862 to 30 Apr 1862",
+      "colony": "QLD",
+      "location": "Murdering Creek, Lake Weyba, Sunshine Coast",
+      "languagegroup": "Gubbi Gubbi",
+      "victims": "25 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Aug 1862 to 31 Aug 1862",
+      "colony": "QLD",
+      "location": "Caboolture River",
+      "languagegroup": "Buyibara",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Sep 1862 to 30 Sep 1862",
+      "colony": "QLD",
+      "location": "Pigeon Creek station, tributary of the Warrego River",
+      "languagegroup": "",
+      "victims": "27 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "30 Oct 1863",
+      "colony": "QLD",
+      "location": "Woolgar River",
+      "languagegroup": "Ngawun",
+      "victims": "12 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1865 to 31 Dec 1865",
+      "colony": "QLD",
+      "location": "Thouringowa Waterhole, Bulloo River, Bullawarra, Thargomindah",
+      "languagegroup": "Kullilla",
+      "victims": "300 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "4 Apr 1865 to 6 Apr 1865",
+      "colony": "WA",
+      "location": "La Grange",
+      "languagegroup": "Yawru, Karajarri",
+      "victims": "15 (Aboriginal People)",
+      "attackers": "3 (Colonisers)"
+    },
+    {
+      "date": "21 Jun 1866",
+      "colony": "QLD",
+      "location": "Glenmore Downs",
+      "languagegroup": "Darumbal",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1866 to 31 Oct 1866",
+      "colony": "QLD",
+      "location": "Belyando River",
+      "languagegroup": "",
+      "victims": "9 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1867 to 31 Dec 1867",
+      "colony": "QLD",
+      "location": "Morinish, near Rockhampton",
+      "languagegroup": "",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1867 to 31 Dec 1867",
+      "colony": "QLD",
+      "location": "Turtle Head Island, 10 kms south of Somerset, Cape York",
+      "languagegroup": "Yadhaigana",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Aboriginal People)"
+    },
+    {
+      "date": "1 Apr 1868 to 31 May 1868",
+      "colony": "QLD",
+      "location": "Burketown",
+      "languagegroup": "",
+      "victims": "28 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Apr 1868 to 31 May 1868",
+      "colony": "QLD",
+      "location": "Norman River, Gulf Country",
+      "languagegroup": "",
+      "victims": "31 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 May 1868 to 15 May 1868",
+      "colony": "WA",
+      "location": "Flying Foam Murajuga, Burrup Peninsula.",
+      "languagegroup": "Jaburara (or Yaburrara, Yapurarra)",
+      "victims": "60 (Aboriginal People)",
+      "attackers": "3 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1869 to 30 Jun 1869",
+      "colony": "QLD",
+      "location": "Torres Strait - Pabaju Albany Island",
+      "languagegroup": "Kawalgaw Ya",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1869 to 30 Jun 1869",
+      "colony": "QLD",
+      "location": "The 'Sperwer' massacre, Prince of Wales Is.Torres Strait",
+      "languagegroup": "",
+      "victims": "17 (Colonisers)",
+      "attackers": "0 (Aboriginal People)"
+    },
+    {
+      "date": "6 Jul 1869 to 31 Jul 1869",
+      "colony": "WA",
+      "location": "Minderoo,",
+      "languagegroup": "Thalanyji",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1870 to 31 Dec 1870",
+      "colony": "NSW",
+      "location": "Hospital Creek, Brewarinna",
+      "languagegroup": "Pooncarie/Parkantyi",
+      "victims": "400 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "20 Jan 1870",
+      "colony": "QLD",
+      "location": "Murray River",
+      "languagegroup": "Djira",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1872 to 31 Dec 1872",
+      "colony": "QLD",
+      "location": "Blencoe Falls, Kirrama, Valley of Lagoons Station",
+      "languagegroup": "",
+      "victims": "11 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1872 to 31 Dec 1872",
+      "colony": "QLD",
+      "location": "Wombunderry Waterhole, Cooper Creek",
+      "languagegroup": "Kungkari",
+      "victims": "100 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Mar 1872 to 10 Mar 1872",
+      "colony": "QLD",
+      "location": "The 'Maria' massacre, Mission Beach",
+      "languagegroup": "Djurun",
+      "victims": "14 (Colonisers)",
+      "attackers": "0 (Aboriginal People)"
+    },
+    {
+      "date": "12 Mar 1872 to 31 Mar 1872",
+      "colony": "QLD",
+      "location": "Coast opposite Dunk Is.",
+      "languagegroup": "Djurun",
+      "victims": "45 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "15 Mar 1872 to 31 Mar 1872",
+      "colony": "QLD",
+      "location": "Tam O'Shanter Point, Mission Beach",
+      "languagegroup": "Djurun",
+      "victims": "43 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Sep 1872 to 30 Sep 1872",
+      "colony": "SA",
+      "location": "Calico Creek",
+      "languagegroup": "Unclear",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "5 Nov 1873",
+      "colony": "QLD",
+      "location": "Battle Camp, Normanby River",
+      "languagegroup": "Gugu-Warra",
+      "victims": "80 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "22 Feb 1874 to 10 Apr 1874",
+      "colony": "SA",
+      "location": "Barrow Creek",
+      "languagegroup": "Kaititja",
+      "victims": "50 (Aboriginal People)",
+      "attackers": "2 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1875 to 31 Dec 1875",
+      "colony": "QLD",
+      "location": "Thundapurty Waterhole near Durrie, SW Queensland",
+      "languagegroup": "Karuwali",
+      "victims": "42 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1875 to 31 Dec 1875",
+      "colony": "SA",
+      "location": "Tempe Downs",
+      "languagegroup": "Matuntara & Irbmangkara",
+      "victims": "80 (Aboriginal People)",
+      "attackers": "0 (Aboriginal People)"
+    },
+    {
+      "date": "23 Jul 1875",
+      "colony": "SA",
+      "location": "Mt McMinn, Northern Territory (2)",
+      "languagegroup": "Mangarrayi",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "2 (Colonisers)"
+    },
+    {
+      "date": "5 Aug 1875 to 15 Aug 1875",
+      "colony": "SA",
+      "location": "Crescent Lagoon, Northern Territory",
+      "languagegroup": "Mangarrayi",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "8 Aug 1875 to 9 Aug 1875",
+      "colony": "SA",
+      "location": "Blue Mud Bay - Arnhem Land",
+      "languagegroup": "Yolngu, Wubuy",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "18 Aug 1875 to 20 Aug 1875",
+      "colony": "SA",
+      "location": "Harris Lagoon, Northern Territory",
+      "languagegroup": "Mangarrayi",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "29 Aug 1875",
+      "colony": "SA",
+      "location": "Calder's Range, Northern Territory",
+      "languagegroup": "Mangarrayi",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "2 Sep 1875",
+      "colony": "SA",
+      "location": "Mole Hill",
+      "languagegroup": "Mangarrayi",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1878 to 31 Jan 1878",
+      "colony": "SA",
+      "location": "The Shackle, Granite Crossing",
+      "languagegroup": "",
+      "victims": "17 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1879 to 31 Dec 1879",
+      "colony": "QLD",
+      "location": "Indian Head, North Shore, Cooktown",
+      "languagegroup": "Guugu Yimithirr",
+      "victims": "28 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1879 to 31 Jan 1879",
+      "colony": "QLD",
+      "location": "Selwyn Ranges",
+      "languagegroup": "Kalkadoons",
+      "victims": "100 (Aboriginal People)",
+      "attackers": "4 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1880 to 31 Dec 1899",
+      "colony": "WA",
+      "location": "Panton River - East Kimberley",
+      "languagegroup": "Worla, Kitja",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1880 to 31 Dec 1880",
+      "colony": "QLD",
+      "location": "Rifle Creek, Mt Carbine",
+      "languagegroup": "Djabugay",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1880 to 30 Nov 1880",
+      "colony": "WA",
+      "location": "Ravensthorpe (Conconurup/Kukenarup/Carracarrup)",
+      "languagegroup": "Minang Noongar",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1884 to 31 Dec 1884",
+      "colony": "QLD",
+      "location": "Allumbah, (Yungaburra) Skull Pocket, Mulgrave River",
+      "languagegroup": "Yidinydi",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "7 Aug 1884 to 7 Sep 1884",
+      "colony": "SA",
+      "location": "Anna's Reservoir",
+      "languagegroup": "Anmatjere",
+      "victims": "15 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Sep 1884 to 30 Sep 1884",
+      "colony": "QLD",
+      "location": "Battle Mountain, Cloncurry",
+      "languagegroup": "Kalkadoons",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "2 Sep 1884",
+      "colony": "SA",
+      "location": "Daly River and Mary River",
+      "languagegroup": "Woolwonga",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "4 (Colonisers)"
+    },
+    {
+      "date": "27 Sep 1884",
+      "colony": "SA",
+      "location": "Argument Flat NT",
+      "languagegroup": "",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1884 to 31 Oct 1884",
+      "colony": "QLD",
+      "location": "Irvinebank, inland from Cairns",
+      "languagegroup": "",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1885 to 31 Dec 1885",
+      "colony": "SA",
+      "location": "Florida Station Poisoning",
+      "languagegroup": "Yolngu",
+      "victims": "100 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "11 Dec 1885 to 31 Dec 1885",
+      "colony": "SA",
+      "location": "Bradshaw Poisoning",
+      "languagegroup": "Wardaman",
+      "victims": "15 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jul 1886 to 1 Sep 1886",
+      "colony": "WA",
+      "location": "Spear Gully' Halls Creek",
+      "languagegroup": "Jaru, Kitja",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "17 Nov 1886 to 11 Jan 1887",
+      "colony": "WA",
+      "location": "Ord River Station - East Kimberley",
+      "languagegroup": "Worla, Jaru, Kitja",
+      "victims": "120 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "17 Nov 1886 to 1 Nov 1887",
+      "colony": "WA",
+      "location": "John Durack (EK) Punitive Expedition",
+      "languagegroup": "Jaru, Kitja",
+      "victims": "120 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "17 Nov 1886 to 21 Jan 1887",
+      "colony": "SA",
+      "location": "Waterloo NT",
+      "languagegroup": "Unclear",
+      "victims": "100 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1887 to 31 Dec 1887",
+      "colony": "QLD",
+      "location": "Normanton",
+      "languagegroup": "",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1887 to 31 Dec 1887",
+      "colony": "SA",
+      "location": "Owen Springs",
+      "languagegroup": "Arrernte",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1888 to 31 Dec 1889",
+      "colony": "SA",
+      "location": "Cooninghera Waterhole halfway between Birdsville and Durrie on the Diamantina River",
+      "languagegroup": "Mindiri and Wardumba",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Apr 1888 to 30 Apr 1888",
+      "colony": "WA",
+      "location": "Goose Hill - East Kimberley",
+      "languagegroup": "Kitja, Worla",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jul 1888 to 30 Sep 1888",
+      "colony": "WA",
+      "location": "Goldfields Road - Halls Creek",
+      "languagegroup": "Kitja",
+      "victims": "35 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1889 to 31 Dec 1896",
+      "colony": "SA",
+      "location": "Mirki Massacre",
+      "languagegroup": "Yolgnu",
+      "victims": "100 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1890 to 31 Dec 1899",
+      "colony": "WA",
+      "location": "Newry Station, Keep River, East Kimberley/ Northern Territory",
+      "languagegroup": "Mirrawong Gadjerong",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1890 to 31 Dec 1899",
+      "colony": "WA",
+      "location": "Ruby Plains -East Kimberley",
+      "languagegroup": "Kitja, Jaru",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1890 to 31 Dec 1899",
+      "colony": "WA",
+      "location": "Kariyarri - Pilbara",
+      "languagegroup": "Ngarluma, Kariyarri",
+      "victims": "50 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1890 to 31 Dec 1899",
+      "colony": "WA",
+      "location": "Warlupany - East Kimberley",
+      "languagegroup": "Worla, Kitja",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1890 to 31 Dec 1899",
+      "colony": "SA",
+      "location": "Koonchera Waterhole (Clifton Hills)",
+      "languagegroup": "Wardumba",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1890 to 31 Dec 1899",
+      "colony": "SA",
+      "location": "Nappamanna Station, near Pandie Pandie station",
+      "languagegroup": "Wanganuru",
+      "victims": "40 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1890 to 31 Dec 1890",
+      "colony": "SA",
+      "location": "Mistake Creek, NT",
+      "languagegroup": "Malngin and Nyinin",
+      "victims": "60 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "24 Jun 1891",
+      "colony": "SA",
+      "location": "Frew River",
+      "languagegroup": "Alyawarr, Wakaya, Kaytete and Warumungu",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "20 (Aboriginal People)"
+    },
+    {
+      "date": "1 Jan 1892 to 31 Dec 1892",
+      "colony": "SA",
+      "location": "Abner Range, Malakoff Creek",
+      "languagegroup": "Garrwa",
+      "victims": "64 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "30 Jan 1892 to 9 Dec 1896",
+      "colony": "SA",
+      "location": "Bowgan Massacre 1 - Corella Creek",
+      "languagegroup": "Wanbaya or Warlpiri",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "3 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1892 to 31 Aug 1892",
+      "colony": "WA",
+      "location": "Leopold Ranges - West Kimberley",
+      "languagegroup": "Bunuba, Nyikina",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "2 (Colonisers)"
+    },
+    {
+      "date": "15 Oct 1892 to 30 Nov 1892",
+      "colony": "SA",
+      "location": "Willeroo",
+      "languagegroup": "Wardaman",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1893 to 31 Dec 1893",
+      "colony": "SA",
+      "location": "Malay Bay",
+      "languagegroup": "",
+      "victims": "6 (Other)",
+      "attackers": "1 (Aboriginal People)"
+    },
+    {
+      "date": "1 Jul 1893 to 31 Jul 1893",
+      "colony": "WA",
+      "location": "Behn River near Rosewood station - East Kimberley",
+      "languagegroup": "Kitja, Jaru",
+      "victims": "23 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1893 to 24 Nov 1893",
+      "colony": "WA",
+      "location": "Ord River-East Kimberley",
+      "languagegroup": "Kitja, Jaru, Mirrawong",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "19 Nov 1894",
+      "colony": "WA",
+      "location": "Geike Gorge (2), West Kimberley",
+      "languagegroup": "Bunuba, Nykina, Goonyiyandi",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "13 Dec 1894 to 6 Jan 1895",
+      "colony": "WA",
+      "location": "Geike Gorge (1- West Kimberley",
+      "languagegroup": "Bunuba",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jun 1895 to 30 Jun 1895",
+      "colony": "WA",
+      "location": "Margaret River Killings, Leopold Ranges",
+      "languagegroup": "Goonyiyandi, Bunuba",
+      "victims": "9 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "14 Jul 1895 to 1 Feb 1896",
+      "colony": "SA",
+      "location": "Gordon Creek",
+      "languagegroup": "Bilignara and Wardaman",
+      "victims": "60 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Nov 1895 to 30 Nov 1895",
+      "colony": "SA",
+      "location": "Little Gregory",
+      "languagegroup": "Wardaman",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "11 Nov 1895",
+      "colony": "WA",
+      "location": "Ivanhoe Station (1) East Kimberley",
+      "languagegroup": "Kitja, Mirrawong",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "27 Dec 1895",
+      "colony": "WA",
+      "location": "Ivanhoe Station (2) East Kimberley",
+      "languagegroup": "Mirrawong Gadgerong",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1896 to 31 Dec 1896",
+      "colony": "WA",
+      "location": "Linnekar Gorge [Turner Station]",
+      "languagegroup": "Kitja, Jaru",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "14 Aug 1896",
+      "colony": "WA",
+      "location": "Fitzroy River Valley Killings, West Kimberley",
+      "languagegroup": "Bunuba, Nyikina, Unggarangi",
+      "victims": "9 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "22 Sep 1896 to 30 Jan 1897",
+      "colony": "WA",
+      "location": "Rosewood and Lissadell massacres, Ord River- East Kimberley",
+      "languagegroup": "Kitja, Worla, Jaru, Mirrawong",
+      "victims": "50 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 May 1899 to 13 Jun 1899",
+      "colony": "WA",
+      "location": "Chinese Garden - West Kimberley",
+      "languagegroup": "Yiiji, Ngarinyin",
+      "victims": "9 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1900 to 31 Dec 1900",
+      "colony": "WA",
+      "location": "Jail House Creek - East Kimberley",
+      "languagegroup": "Worla, Kitja",
+      "victims": "50 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "20 Jul 1900",
+      "colony": "NSW",
+      "location": "Breelong, near Gilgandra",
+      "languagegroup": "",
+      "victims": "8 (Colonisers)",
+      "attackers": "0 (Aboriginal People)"
+    },
+    {
+      "date": "1 Jan 1901 to 31 Dec 1902",
+      "colony": "SA",
+      "location": "Hodgson Downs Station, Bailey Creek, Minyerri",
+      "languagegroup": "Maijarayi and Alawa",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1902 to 31 Dec 1902",
+      "colony": "QLD",
+      "location": "Ducie River, Cape York",
+      "languagegroup": "",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1903 to 31 Dec 1904",
+      "colony": "SA",
+      "location": "Winiki Pocket",
+      "languagegroup": "",
+      "victims": "8 (Colonisers)",
+      "attackers": "0 (Aboriginal People)"
+    },
+    {
+      "date": "1 Jan 1908 to 31 Dec 1908",
+      "colony": "WA",
+      "location": "Texas Downs - East Kimberley",
+      "languagegroup": "Worla, Kitja, Jaru",
+      "victims": "9 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1911 to 31 Dec 1911",
+      "colony": "NT",
+      "location": "Gan Gan Massacre #1",
+      "languagegroup": "Yolgnu – Dhalwangu and Gumatj people",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "6 Jan 1912 to 11 Apr 1913",
+      "colony": "WA",
+      "location": "Canning Stock Route - Well No.4",
+      "languagegroup": "Martu",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 May 1915 to 30 Jun 1915",
+      "colony": "WA",
+      "location": "Mistake Creek - East Kimberley",
+      "languagegroup": "Kitja, Worla",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Sep 1916 to 30 Sep 1916",
+      "colony": "WA",
+      "location": "Mowla Bluff - West Kimberley",
+      "languagegroup": "Nyikina",
+      "victims": "6 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1917 to 31 Dec 1917",
+      "colony": "NT",
+      "location": "Tennant Creek",
+      "languagegroup": "Warlpiri/Warumungu",
+      "victims": "50 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1918 to 31 Dec 1918",
+      "colony": "QLD",
+      "location": "Bentinck Island, Gulf of Carpentaria",
+      "languagegroup": "Kaiadilt",
+      "victims": "11 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "23 Mar 1918 to 2 Apr 1918",
+      "colony": "NT",
+      "location": "Auvergne Massacre",
+      "languagegroup": "Gurindji",
+      "victims": "7 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1920 to 31 Dec 1922",
+      "colony": "NT",
+      "location": "Wave Hill Station",
+      "languagegroup": "Warlpiri & Gurindji",
+      "victims": "30 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1921 to 30 Nov 1921",
+      "colony": "WA",
+      "location": "Bedford Downs (1) - East Kimberley",
+      "languagegroup": "Kitja, Worla",
+      "victims": "10 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Oct 1922 to 31 Oct 1922",
+      "colony": "WA",
+      "location": "Sturt Creek - East Kimberley",
+      "languagegroup": "Tjurabalan, Walmajari, Jaru",
+      "victims": "12 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Jan 1924 to 31 Dec 1924",
+      "colony": "WA",
+      "location": "Bedford Downs (2) - East Kimberley",
+      "languagegroup": "Kitja, Worla",
+      "victims": "20 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "20 Jun 1926 to 31 Jul 1926",
+      "colony": "WA",
+      "location": "Forrest River [Oombulgurri] - East Kimberley",
+      "languagegroup": "Yiiji",
+      "victims": "11 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    },
+    {
+      "date": "1 Aug 1928 to 31 Oct 1928",
+      "colony": "NT",
+      "location": "Coniston and surrounds 1",
+      "languagegroup": "Warlpiri, Anmatyere, Kaytetye",
+      "victims": "50 (Aboriginal People)",
+      "attackers": "1 (Colonisers)"
+    },
+    {
+      "date": "1 Aug 1928 to 31 Oct 1928",
+      "colony": "NT",
+      "location": "Coniston and surrounds 2",
+      "languagegroup": "Warlpiri, Anmatyere, Kaytetye",
+      "victims": "60 (Aboriginal People)",
+      "attackers": "0 (Colonisers)"
+    }
+   ]
