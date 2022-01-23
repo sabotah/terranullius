@@ -11,25 +11,22 @@
 					* BP = Before Present Day
 				</div>
 				<div class="col-9">
-					<h1 id="title">Terra Nullius</h1>
+					<h2 id="title">Terra Nullius</h2>
 					<div class="row" id="populationcontainer">
-						
 						<div class="col-6" id="firstnationpopulation"></div>
 						<div class="col-6" id="colonialistpopulation"></div>
 					</div>
 					<div class="row" id="deathcount">
-						<h3>documented massacre death count</h3>
-						<div class="col-6" id="firstnationdeathcount">0</div>
-						<div class="col-6" id="colonialistdeathcount">0</div>
-						
+						<div class="col-6" id="firstnationdeathcount"></div>
+						<div class="col-6" id="colonialistdeathcount"></div>
 					</div>
-					<h3 id="eventdescription"></h3>
+					<h6 id="eventdescription"></h6>
 
-					<canvas id="canvas" width="990" height="600">
+					<canvas id="canvas" width="600" height="554">
 					</canvas>
 					
 					<button class="btn btn-danger btn-lg btn-block col-md-12" id="start">Start</button>
-					<h3 id="pauseinfo">[ Paused, Click Resume to Continue ]</h3>
+					<!-- <h6 id="pauseinfo">[ Paused, Click Resume to Continue ]</h6> -->
 				</div>
 				<div class="col-12" id="massacreevent"></div>
 				<hr>
@@ -63,15 +60,12 @@
 		}
 		// set timeout
 
-
-
-
 		var iterationcount = 0;
-		var timelabel = 60000; // 60000 250
+		var timelabel = 250; // 60000 250
 		var popgrowth = 2;
 		var start = false;
 		var timer = 500;
-		var adtime = 0; // 0 1770
+		var adtime = 1770; // 0 1770
 		var tid;
 		var firstnationpopulation = 0;
 		var colonialistpopulation = 0;
@@ -88,12 +82,16 @@
 		$('#start').click(function(){
 			console.log(adtime);
 			if(adtime == 1780) {
-				$('#deathcount').css('visibility','visible').hide().fadeIn('slow');
+				// $('#deathcount').fadeIn('slow');
+				$('#deathcount').prepend('<p>Documented massacre death count</p>')
+				$('#populationcontainer').hide();
 			}
 
 			if(start == false) {
 				tid = setTimeout(mycode, timer);
 				$(this).html('Pause');
+				$('#start').removeClass('btn-danger');
+				$('#start').addClass('btn-info');
 				$('#pauseinfo').css('visibility', 'hidden');
 				start = true;
 			}
@@ -528,6 +526,8 @@
 		}
 		function abortTimer() { // to be called when you want to stop the timer
 			$('#start').html('Resume');
+			$('#start').removeClass('btn-info');
+			$('#start').addClass('btn-danger');
 			$('#pauseinfo').css('visibility', 'visible');
 			start = false;
 		  clearTimeout(tid);
